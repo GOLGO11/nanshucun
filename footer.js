@@ -1,0 +1,12 @@
+document.write("<footer>");
+document.write("            <div class=\"footer-content\" align=\"center\">");
+document.write("                <p>版权所有 &copy; 2024 楠树村信息网站. All rights reserved.<\/p>");
+document.write("                <p>地址：四川省德阳市旌阳区天元街道楠树村村委会<\/p>");
+document.write("                <p>电话：13568227789<\/p>");
+document.write("                <nav>");
+document.write("                    <ul>");
+document.write("                        <a href=\"html\/联系我们.html\">联系我们<\/a>");
+document.write("                    <\/ul>");
+document.write("                <\/nav>");
+document.write("            <\/div>");
+document.write("        <\/footer>");
