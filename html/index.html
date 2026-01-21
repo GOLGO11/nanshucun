@@ -126,20 +126,19 @@
     </div>
     <!-- 引入 Bootstrap 的 JavaScript 文件 -->
     <script type="text/javascript" src="../package/jquery-3.7.1.min.js"></script>
-    const typebotInitScript = document.createElement("script");
-typebotInitScript.type = "module";
-typebotInitScript.innerHTML = `import Typebot from 'https://cdn.jsdelivr.net/npm/@typebot.io/js@0/dist/web.js'
+    <script type="module">
+  import Typebot from 'https://cdn.jsdelivr.net/npm/@typebot.io/js@0/dist/web.js'
 
-Typebot.initBubble({
-  typebot: "my-typebot-mnui13q",
-  apiHost: "https://fyncs.adamxjames.com",
-  theme: {
-    button: { backgroundColor: "#b8eac8" },
-    chatWindow: { backgroundColor: "#FAF3EA" },
-  },
-});
-`;
-document.body.append(typebotInitScript);
+  Typebot.initBubble({
+    typebot: "my-typebot-mnui13q",
+    apiHost: "https://fyncs.adamxjames.com",
+    theme: {
+      button: { backgroundColor: "#b8eac8" },
+      chatWindow: { backgroundColor: "#FAF3EA" },
+    },
+  });
+</script>
+
 
     <script type="text/javascript" src="../package/popper.min.js"></script>
     <script src="../package/bootstrap-4.5.3/js/bootstrap.min.js"></script>
